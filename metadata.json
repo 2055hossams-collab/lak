@@ -1,5 +1,24 @@
+
 {
-  "name": "Al-Mokhtabar Pro (المختبر الذكي)",
-  "description": "A comprehensive laboratory management system featuring patient tracking, test result entry, financial analytics, and AI-powered medical result interpretation.",
-  "requestFramePermissions": []
+  "name": "Smart Accountant Pro APK",
+  "description": "نظام محاسبي متكامل يعمل أوفلاين بالكامل مع صلاحيات الوصول للملفات والطباعة والمشاركة عبر Cordova.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "cordova_plugins": [
+    "cordova-plugin-file",
+    "cordova-plugin-file-opener2",
+    "cordova-plugin-x-socialsharing",
+    "cordova-plugin-android-permissions",
+    "cordova-plugin-printer",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-insomnia",
+    "cordova-plugin-navigationbar-color",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-dialogs"
+  ]
 }
